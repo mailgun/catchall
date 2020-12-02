@@ -1,4 +1,4 @@
-package catchall
+package main
 
 import (
 	"fmt"
