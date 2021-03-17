@@ -1,9 +1,12 @@
-module github.com/mailgun/catchall
+module github.com/ravlio/catch-all
 
 go 1.15
 
 require (
-	github.com/davecgh/go-spew v1.1.1
-	github.com/json-iterator/go v1.1.10
-	github.com/mailgun/holster/v3 v3.15.2
+	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d
+	github.com/go-kit/kit v0.10.0
+	github.com/gorilla/mux v1.8.0
+	github.com/lib/pq v1.10.0
+	github.com/oklog/run v1.0.0
+	github.com/stretchr/testify v1.6.1
 )
